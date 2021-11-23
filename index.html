@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="out">
+            <div class="pricing-table row">
+                <div class="package featured">
+                    <div class="burger">
+                        <h2 class="title">Create Your Incredible Burger!</h2>
+                        <div class="options">
+                            <div class="container package color">
+                                <h3 class="itemTitle">Choose The Size</h3>
+                                <div class="widthFull">
+                                    <input class="size ingredient" type="radio" id="big" name="size" value="big">
+                                    <label for="big">Big</label>
+                                </div>
+                                <div class="widthFull">
+                                    <input class="size ingredient" type="radio" id="small" name="size" value="small">
+                                    <label for="small">Small</label>
+                                </div>
+                            </div>
+                            <div class="container package">
+                                <h3 class="itemTitle">Choose The Stuffing</h3>
+                                <div class="widthFull">
+                                    <input class="stuffing ingredient" type="radio" id="cheese" name="stuffing"
+                                        value="cheese">
+                                    <label for="cheese">Cheese</label>
+                                </div>
+                                <div class="widthFull">
+                                    <input class="stuffing ingredient" type="radio" id="salad" name="stuffing"
+                                        value="salad">
+                                    <label for="salad">Salad</label>
+                                </div>
+                                <div class="widthFull">
+                                    <input class="stuffing ingredient" type="radio" id="potato" name="stuffing"
+                                        value="potato">
+                                    <label for="potato">Potato</label>
+                                </div>
+                            </div>
+                            <div class="container package">
+                                <h3 class="itemTitle">Add The Spices</h3>
+                                <div class="widthFull">
+                                    <input class="topping ingredient" type="checkbox" id="spices" name="topping"
+                                        value="spices">
+                                    <label for="spices">Spices</label>
+                                </div>
+                                <div class="widthFull">
+                                    <input class="topping ingredient" type="checkbox" id="mayonnaise" name="topping"
+                                        value="mayonnaise">
+                                    <label for="mayonnaise">Mayonnaise</label>
+                                </div>
+                            </div>
+                            <div class="container package">
+                                <h4 class="bprice widthFull"></h4>
+                                <h4 class="calories widthFull"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="burger.js"></script>
+</body>
+
+</html>
