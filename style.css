@@ -2,10 +2,23 @@
     text-align: center;
 }
 
-h1, h2, h3, h4 {
+.color {
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
     width: 100%;
 }
 
 .widthFull {
-    width: 35%;
+    width: 40%;
+    background-color: #ffff5c;
+    text-align: start;
+}
+
+.ingredient {
+    margin: 5px;
 }
