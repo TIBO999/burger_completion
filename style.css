@@ -22,3 +22,8 @@ h4 {
 .ingredient {
     margin: 5px;
 }
+
+.bprice,
+.calories {
+    font-size: 25px;
+}
