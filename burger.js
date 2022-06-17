@@ -114,7 +114,7 @@ class Hamburger {
         this.getStuffing()
         this.getToppings()
         this.price = this.size.price + this.stuffing.price + this.topping.price;
-        document.querySelector('.price').innerHTML = `Your Burger Costs ${this.price} rubles`;
+        document.querySelector('.bprice').innerHTML = `Your Burger Costs ${this.price} rubles`;
         return this.price;
     }
     // Узнать калорийность
@@ -132,6 +132,6 @@ class Hamburger {
 let hum = new Hamburger();
 // пересчет Humburger по событию изменения радио и чекбоксов
 document.querySelectorAll('.ingredient').forEach(item => item.addEventListener('change', () => {
-    document.querySelector('.price').innerHTML = `Your Burger Costs ${hum.calculatePrice()} rubles`;
+    document.querySelector('.bprice').innerHTML = `Your Burger Costs ${hum.calculatePrice()} rubles`;
     document.querySelector('.calories').innerHTML = `Your Burger Has ${hum.calculateCalories()} calories`;
 }));
